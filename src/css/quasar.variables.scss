@@ -1,0 +1,26 @@
+// ============================================================
+// Quasar — Variáveis SICAM
+// Mapeia a paleta SICAM para o sistema de cores do Quasar
+// ============================================================
+
+// ------------------------------------------------------------
+// Cor primária institucional
+// ------------------------------------------------------------
+$primary   : #065f46;   // verde institucional SICAM
+$secondary : #059669;   // verde acção
+$accent    : #10b981;   // verde suave
+
+// ------------------------------------------------------------
+// Cores de estado (Quasar semantic)
+// ------------------------------------------------------------
+$positive  : #16a34a;   // regular / sucesso
+$negative  : #dc2626;   // crítico / erro
+$info      : #2563eb;   // informação (INATRO azul)
+$warning   : #d99a06;   // atenção
+$dark      : #111827;   // texto forte
+
+// ------------------------------------------------------------
+// Superfícies base
+// ------------------------------------------------------------
+$dark-page : #0f172a;
+$dark      : #1e293b;

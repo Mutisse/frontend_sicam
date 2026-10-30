@@ -1,0 +1,107 @@
+// ============================================================
+// SICAM — Mixins reutilizáveis
+// ============================================================
+
+@use 'sass:color';
+
+// ------------------------------------------------------------
+// Responsividade
+// ------------------------------------------------------------
+@mixin mobile {
+  @media (max-width: 599px) { @content; }
+}
+
+@mixin tablet {
+  @media (min-width: 600px) and (max-width: 1023px) { @content; }
+}
+
+@mixin desktop {
+  @media (min-width: 1024px) { @content; }
+}
+
+@mixin below-desktop {
+  @media (max-width: 900px) { @content; }
+}
+
+// ------------------------------------------------------------
+// Card base
+// ------------------------------------------------------------
+@mixin card {
+  background: var(--sicam-surface);
+  border-radius: var(--sicam-radius-lg);
+  box-shadow: var(--sicam-shadow-md);
+  padding: var(--sicam-space-lg);
+}
+
+// ------------------------------------------------------------
+// Badge de estado
+// ------------------------------------------------------------
+@mixin badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: var(--sicam-radius-pill);
+  font-size: var(--sicam-font-size-sm);
+  font-weight: var(--sicam-font-weight-semibold);
+  white-space: nowrap;
+
+  &::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+}
+
+// ------------------------------------------------------------
+// Barra de score
+// ------------------------------------------------------------
+@mixin bar {
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background: var(--sicam-line);
+  border-radius: var(--sicam-radius-pill);
+  overflow: hidden;
+  vertical-align: middle;
+
+  > i {
+    display: block;
+    height: 100%;
+    border-radius: var(--sicam-radius-pill);
+    background: var(--sicam-primary-light);
+    transition: width var(--sicam-transition-normal);
+  }
+}
+
+// ------------------------------------------------------------
+// Truncar texto
+// ------------------------------------------------------------
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// ------------------------------------------------------------
+// Foco acessível
+// ------------------------------------------------------------
+@mixin focus-ring {
+  outline: 2px solid var(--sicam-primary-light);
+  outline-offset: 2px;
+}
+
+// ------------------------------------------------------------
+// Scrollbar SICAM
+// ------------------------------------------------------------
+@mixin sicam-scrollbar {
+  &::-webkit-scrollbar { width: 8px; height: 8px; }
+  &::-webkit-scrollbar-track { background: transparent; }
+  &::-webkit-scrollbar-thumb {
+    background: var(--sicam-line-strong);
+    border-radius: var(--sicam-radius-pill);
+    &:hover { background: var(--sicam-muted); }
+  }
+}

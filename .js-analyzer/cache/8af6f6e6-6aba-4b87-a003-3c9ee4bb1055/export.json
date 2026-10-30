@@ -1,0 +1,4105 @@
+{
+  "D:/projects/Frontend/frontend_sicam/env.d.ts": {},
+  "D:/projects/Frontend/frontend_sicam/index.html": {},
+  "D:/projects/Frontend/frontend_sicam/oxfmt.config.ts": {
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/oxlint.config.ts": {
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/package-lock.json": {},
+  "D:/projects/Frontend/frontend_sicam/package.json": {},
+  "D:/projects/Frontend/frontend_sicam/pnpm-workspace.yaml": {},
+  "D:/projects/Frontend/frontend_sicam/postcss.config.js": {
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/quasar.config.ts": {
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/README.md": {},
+  "D:/projects/Frontend/frontend_sicam/tree-frontend.txt": {},
+  "D:/projects/Frontend/frontend_sicam/tsconfig.json": {},
+  "D:/projects/Frontend/frontend_sicam/public/favicon.ico": {},
+  "D:/projects/Frontend/frontend_sicam/src/App.vue": {},
+  "D:/projects/Frontend/frontend_sicam/public/icons/apple-icon-180x180.png": {},
+  "D:/projects/Frontend/frontend_sicam/public/icons/favicon-128x128.png": {},
+  "D:/projects/Frontend/frontend_sicam/public/icons/favicon-16x16.png": {},
+  "D:/projects/Frontend/frontend_sicam/public/icons/favicon-32x32.png": {},
+  "D:/projects/Frontend/frontend_sicam/public/icons/favicon-96x96.png": {},
+  "D:/projects/Frontend/frontend_sicam/src/assets/quasar-logo-vertical.svg": {},
+  "D:/projects/Frontend/frontend_sicam/src/boot/axios.ts": {
+    "Default": {
+      "num": 46,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/services/auth.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/dashboard.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/notificacoes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/perfil.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/backups.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/dispositivos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/integracoes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/monitorizacao.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/perfis.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/postos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/relatorios-frota.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/relatorios-operacoes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/admin/utilizadores.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/agente/agente-consulta.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/agente/agente-inicio.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/agente/autos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/agente/historico.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/agente/perfil.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/chefe/agentes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/chefe/aprovacoes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/chefe/escalas.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/chefe/patrulhas.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/chefe/relatorios.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/chefe/veiculos-criticos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/gestmul/contestacoes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/gestmul/exportacao.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/gestmul/multas.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/gestmul/pagamentos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/gestmul/relatorios.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/issm/apolices.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/issm/relatorios.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/issm/seguradoras.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/issm/sinistros.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/issm/validacao.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/inatro/agendamentos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/inatro/catalogos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/inatro/exportacoes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/inatro/inspecoes.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/inatro/relatorios.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/inatro/veiculos.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/portal/cidadao.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/prm/abordagens.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/prm/alertas.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/prm/hotlist.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/services/prm/relatorios.service.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-ExportacaoStore.ts"
+      ]
+    },
+    "garantirCsrf": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/services/auth.service.ts"
+      ]
+    },
+    "resetCsrf": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/stores/auth.ts"
+      ]
+    },
+    "ApiError": {
+      "num": 0,
+      "using": []
+    },
+    "extrairErro": {
+      "num": 50,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/stores/auth.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/Desktopnotificacoes.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/Mobilenotificacoes.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/backups.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/dispositivos.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/integracoes.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/monitorizacao.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/perfis.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/postos.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/relatorios-frota.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/relatorios.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/admin/utilizadores.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-autos.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-fluxo.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-historico.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-inicio.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-perfil.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-AgentesStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-AprovacoesStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-EscalasStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-RelatoriosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-VeiculosCriticosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/admin-dashboard.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/dashboard.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-ContestacoesStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-ExportacaoStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-MultasStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-PagamentosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-RelatoriosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-AgendamentosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-ExportacaoStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-inspecoesStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-RelatoriosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-VeiculoStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/perfil/admin-perfil.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/perfil/perfil.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-ApolesStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-RelatoriosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-SeguradorasStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-SinistrosStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/portal/inicio.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-AbordagensStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-AlertasStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-HotlistStore.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-relatorios.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/chefe.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/gestmul.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/inatro.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/issm.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/prm.store.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/boot/i18n.ts": {
+    "MessageLanguages": {
+      "num": 0,
+      "using": []
+    },
+    "MessageSchema": {
+      "num": 0,
+      "using": []
+    },
+    "DefineLocaleMessage": {
+      "num": 0,
+      "using": []
+    },
+    "DefineDateTimeFormat": {
+      "num": 0,
+      "using": []
+    },
+    "DefineNumberFormat": {
+      "num": 0,
+      "using": []
+    },
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/boot/pinia.ts": {
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/css/app.scss": {},
+  "D:/projects/Frontend/frontend_sicam/src/css/quasar.variables.scss": {},
+  "D:/projects/Frontend/frontend_sicam/src/i18n/index.ts": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/boot/i18n.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/router/index.ts": {
+    "pinia": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/boot/pinia.ts"
+      ]
+    },
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts": {
+    "routesDesktop": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts": {
+    "routesMobile": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts": {
+    "routesPortal": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/router/typed-router.d.ts": {
+    "RouteNamedMap": {
+      "num": 0,
+      "using": []
+    },
+    "_RouteFileInfoMap": {
+      "num": 0,
+      "using": []
+    },
+    "_RouteNamesForFilePath": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/auth.service.ts": {
+    "Perfil": {
+      "num": 0,
+      "using": []
+    },
+    "Preferencias": {
+      "num": 0,
+      "using": []
+    },
+    "Utilizador": {
+      "num": 0,
+      "using": []
+    },
+    "LoginResponse": {
+      "num": 0,
+      "using": []
+    },
+    "MeResponse": {
+      "num": 0,
+      "using": []
+    },
+    "authService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/dashboard.service.ts": {
+    "DashboardKpi": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoIntervencao": {
+      "num": 0,
+      "using": []
+    },
+    "AgentePatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "DashboardAdmin": {
+      "num": 0,
+      "using": []
+    },
+    "DashboardComum": {
+      "num": 0,
+      "using": []
+    },
+    "InatroKpi": {
+      "num": 0,
+      "using": []
+    },
+    "InatroChartPonto": {
+      "num": 0,
+      "using": []
+    },
+    "InatroCard": {
+      "num": 0,
+      "using": []
+    },
+    "InatroTabelaLinha": {
+      "num": 0,
+      "using": []
+    },
+    "InatroDashboard": {
+      "num": 0,
+      "using": []
+    },
+    "IssmApolice": {
+      "num": 0,
+      "using": []
+    },
+    "IssmDashboard": {
+      "num": 0,
+      "using": []
+    },
+    "PrmKpi": {
+      "num": 0,
+      "using": []
+    },
+    "PrmChartPonto": {
+      "num": 0,
+      "using": []
+    },
+    "PrmCard": {
+      "num": 0,
+      "using": []
+    },
+    "PrmTabelaLinha": {
+      "num": 0,
+      "using": []
+    },
+    "PrmDashboard": {
+      "num": 0,
+      "using": []
+    },
+    "GestmulKpi": {
+      "num": 0,
+      "using": []
+    },
+    "GestmulChartPonto": {
+      "num": 0,
+      "using": []
+    },
+    "GestmulCard": {
+      "num": 0,
+      "using": []
+    },
+    "GestmulTabelaLinha": {
+      "num": 0,
+      "using": []
+    },
+    "GestmulDashboard": {
+      "num": 0,
+      "using": []
+    },
+    "ChefeKpi": {
+      "num": 0,
+      "using": []
+    },
+    "ChefeChartPonto": {
+      "num": 0,
+      "using": []
+    },
+    "ChefeCard": {
+      "num": 0,
+      "using": []
+    },
+    "ChefeTabelaLinha": {
+      "num": 0,
+      "using": []
+    },
+    "ChefeDashboard": {
+      "num": 0,
+      "using": []
+    },
+    "dashboardService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/notificacoes.service.ts": {
+    "Notificacao": {
+      "num": 0,
+      "using": []
+    },
+    "ContagemResposta": {
+      "num": 0,
+      "using": []
+    },
+    "notificacoesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/perfil.service.ts": {
+    "SessaoActiva": {
+      "num": 0,
+      "using": []
+    },
+    "Preferencias": {
+      "num": 0,
+      "using": []
+    },
+    "perfilService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/app.store.ts": {
+    "useAppStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/auth.ts": {
+    "Utilizador": {
+      "num": 0,
+      "using": []
+    },
+    "useAuthStore": {
+      "num": 12,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/index.ts",
+        "D:/projects/Frontend/frontend_sicam/src/auth/pages/login.vue",
+        "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/admin-dashboard.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/perfil/admin-perfil.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/perfil/perfil.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/layouts/MainLayout.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/AplicarMulta.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/autos.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/inicio.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/perfil.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/dashboard.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/perfil.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboard.store.ts": {},
+  "D:/projects/Frontend/frontend_sicam/src/stores/Desktopnotificacoes.store.ts": {
+    "useNotificacoesStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/example-store.ts": {
+    "useCounterStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/index.ts": {
+    "PiniaCustomProperties": {
+      "num": 0,
+      "using": []
+    },
+    "Default": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/Mobilenotificacoes.store.ts": {
+    "useNotificacoesStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/auth/layouts/AuthLayout.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/index.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/auth/pages/ErrorNotFound.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/index.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/auth/pages/login.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/index.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/css/design/mixins.scss": {},
+  "D:/projects/Frontend/frontend_sicam/src/css/design/palette.ts": {
+    "palette": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoScore": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoInfo": {
+      "num": 0,
+      "using": []
+    },
+    "estadoDoScore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/inicio.vue"
+      ]
+    },
+    "nivelDoScore": {
+      "num": 0,
+      "using": []
+    },
+    "Perfil": {
+      "num": 5,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/index.ts",
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts",
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts",
+        "D:/projects/Frontend/frontend_sicam/src/stores/auth.ts",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/config/menus.ts"
+      ]
+    },
+    "PERFIL_LABEL": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/layouts/MainLayout.vue"
+      ]
+    },
+    "corDoPerfil": {
+      "num": 0,
+      "using": []
+    },
+    "Veiculo": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "VeiculoSimples": {
+      "num": 0,
+      "using": []
+    },
+    "Posto": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "Dispositivo": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "Patrulha": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "AutoNoticia": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "AlertaClonagem": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "Utilizador": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "Integracao": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "RegistoAuditoria": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts"
+      ]
+    },
+    "ConsultaHistorico": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/css/design/tokens.scss": {},
+  "D:/projects/Frontend/frontend_sicam/src/i18n/en-US/index.ts": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/i18n/index.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppBadge.vue": {
+    "BadgeVariant": {
+      "num": 0,
+      "using": []
+    },
+    "Default": {
+      "num": 5,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/autos.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/consulta.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/historico.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/inicio.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/perfil.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppCard.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppChip.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/inicio.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppEmpty.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/common/AppTable.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppFbLoader.vue": {
+    "Default": {
+      "num": 3,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/AdminDashboard.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/gestmul.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/prm.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppFilterBar.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppKpi.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppPageHeader.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppRow.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppScoreBar.vue": {
+    "ScoreVariant": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/common/AppKpi.vue"
+      ]
+    },
+    "Default": {
+      "num": 3,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/common/AppKpi.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/consulta.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/inicio.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppSpinner.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/common/AppTable.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/common/AppTable.vue": {
+    "TableColumn": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/backups.service.ts": {
+    "TipoBackup": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoBackup": {
+      "num": 0,
+      "using": []
+    },
+    "OrigemBackup": {
+      "num": 0,
+      "using": []
+    },
+    "Periodicidade": {
+      "num": 0,
+      "using": []
+    },
+    "Backup": {
+      "num": 0,
+      "using": []
+    },
+    "TipoBackupConfig": {
+      "num": 0,
+      "using": []
+    },
+    "BackupsKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaBackups": {
+      "num": 0,
+      "using": []
+    },
+    "CriarBackupPayload": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarTipoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "backupsService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/dispositivos.service.ts": {
+    "EstadoDispositivo": {
+      "num": 0,
+      "using": []
+    },
+    "Dispositivo": {
+      "num": 0,
+      "using": []
+    },
+    "DispositivosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaDispositivos": {
+      "num": 0,
+      "using": []
+    },
+    "CriarDispositivoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarDispositivoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "dispositivosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/integracoes.service.ts": {
+    "EstadoIntegracao": {
+      "num": 0,
+      "using": []
+    },
+    "TomDesempenho": {
+      "num": 0,
+      "using": []
+    },
+    "Integracao": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoItem": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaIntegracoes": {
+      "num": 0,
+      "using": []
+    },
+    "integracoesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/monitorizacao.service.ts": {
+    "Nivel": {
+      "num": 0,
+      "using": []
+    },
+    "NivelAlerta": {
+      "num": 0,
+      "using": []
+    },
+    "KpiRecurso": {
+      "num": 0,
+      "using": []
+    },
+    "Integracao": {
+      "num": 0,
+      "using": []
+    },
+    "MetricasSistema": {
+      "num": 0,
+      "using": []
+    },
+    "Alerta": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaMonitorizacao": {
+      "num": 0,
+      "using": []
+    },
+    "monitorizacaoService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/perfis.service.ts": {
+    "ModuloKey": {
+      "num": 0,
+      "using": []
+    },
+    "AcaoKey": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoPerfil": {
+      "num": 0,
+      "using": []
+    },
+    "Permissao": {
+      "num": 0,
+      "using": []
+    },
+    "Perfil": {
+      "num": 0,
+      "using": []
+    },
+    "Acao": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaPerfis": {
+      "num": 0,
+      "using": []
+    },
+    "CriarPerfilPayload": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarPerfilPayload": {
+      "num": 0,
+      "using": []
+    },
+    "perfisService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/postos.service.ts": {
+    "Posto": {
+      "num": 0,
+      "using": []
+    },
+    "PostosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaPostos": {
+      "num": 0,
+      "using": []
+    },
+    "CriarPostoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarPostoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "postosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/relatorios-frota.service.ts": {
+    "EstadoOperacao": {
+      "num": 0,
+      "using": []
+    },
+    "KpisFrota": {
+      "num": 0,
+      "using": []
+    },
+    "Viatura": {
+      "num": 0,
+      "using": []
+    },
+    "Operacao": {
+      "num": 0,
+      "using": []
+    },
+    "OpcoesFrota": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaFrota": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosFrota": {
+      "num": 0,
+      "using": []
+    },
+    "relatoriosFrotaService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/relatorios-operacoes.service.ts": {
+    "EstadoOperacao": {
+      "num": 0,
+      "using": []
+    },
+    "Operacao": {
+      "num": 0,
+      "using": []
+    },
+    "Viatura": {
+      "num": 0,
+      "using": []
+    },
+    "SeriePonto": {
+      "num": 0,
+      "using": []
+    },
+    "PostoBar": {
+      "num": 0,
+      "using": []
+    },
+    "DistEstado": {
+      "num": 0,
+      "using": []
+    },
+    "KpisOperacoes": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaOperacoes": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosOperacoes": {
+      "num": 0,
+      "using": []
+    },
+    "relatoriosOperacoesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/admin/utilizadores.service.ts": {
+    "EstadoUtilizador": {
+      "num": 0,
+      "using": []
+    },
+    "PerfilKey": {
+      "num": 0,
+      "using": []
+    },
+    "Utilizador": {
+      "num": 0,
+      "using": []
+    },
+    "Perfil": {
+      "num": 0,
+      "using": []
+    },
+    "UtilizadoresKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaUtilizadores": {
+      "num": 0,
+      "using": []
+    },
+    "CriarUtilizadorPayload": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarUtilizadorPayload": {
+      "num": 0,
+      "using": []
+    },
+    "utilizadoresService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/agente/agente-consulta.service.ts": {
+    "Entidade": {
+      "num": 0,
+      "using": []
+    },
+    "ResultadoConsulta": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoDetalhe": {
+      "num": 0,
+      "using": []
+    },
+    "ProprietarioDetalhe": {
+      "num": 0,
+      "using": []
+    },
+    "Inspecao": {
+      "num": 0,
+      "using": []
+    },
+    "Apolice": {
+      "num": 0,
+      "using": []
+    },
+    "Multa": {
+      "num": 0,
+      "using": []
+    },
+    "MultasDetalhe": {
+      "num": 0,
+      "using": []
+    },
+    "HotlistDetalhe": {
+      "num": 0,
+      "using": []
+    },
+    "EntidadeResumo": {
+      "num": 0,
+      "using": []
+    },
+    "ResumoDetalhe": {
+      "num": 0,
+      "using": []
+    },
+    "DetalheCompleto": {
+      "num": 0,
+      "using": []
+    },
+    "agenteConsultaService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/agente/agente-inicio.service.ts": {
+    "Kpis": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoConsultado": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "Patrulha": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaInicio": {
+      "num": 0,
+      "using": []
+    },
+    "RegistarConsultaPayload": {
+      "num": 0,
+      "using": []
+    },
+    "agenteInicioService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/agente/autos.service.ts": {
+    "EstadoAuto": {
+      "num": 0,
+      "using": []
+    },
+    "Infracao": {
+      "num": 0,
+      "using": []
+    },
+    "AutoNoticia": {
+      "num": 0,
+      "using": []
+    },
+    "ListaAutosResposta": {
+      "num": 0,
+      "using": []
+    },
+    "CriarAutoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "CriarAutoResposta": {
+      "num": 0,
+      "using": []
+    },
+    "autosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/agente/historico.service.ts": {
+    "EstadoConsulta": {
+      "num": 0,
+      "using": []
+    },
+    "ConsultaHistorico": {
+      "num": 0,
+      "using": []
+    },
+    "HistoricoKpis": {
+      "num": 0,
+      "using": []
+    },
+    "ListaHistoricoResposta": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosHistorico": {
+      "num": 0,
+      "using": []
+    },
+    "historicoService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/agente/ocr.service.ts": {
+    "lerMatriculaDeImagem": {
+      "num": 0,
+      "using": []
+    },
+    "capturarDaCamera": {
+      "num": 0,
+      "using": []
+    },
+    "preProcessarImagem": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/agente/perfil.service.ts": {
+    "UtilizadorPerfil": {
+      "num": 0,
+      "using": []
+    },
+    "Sessao": {
+      "num": 0,
+      "using": []
+    },
+    "Preferencias": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarPerfilPayload": {
+      "num": 0,
+      "using": []
+    },
+    "perfilService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/chefe/agentes.service.ts": {
+    "EstadoAgente": {
+      "num": 0,
+      "using": []
+    },
+    "TurnoAgente": {
+      "num": 0,
+      "using": []
+    },
+    "Agente": {
+      "num": 0,
+      "using": []
+    },
+    "AgentesKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaAgentes": {
+      "num": 0,
+      "using": []
+    },
+    "CriarAgentePayload": {
+      "num": 0,
+      "using": []
+    },
+    "agentesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/chefe/aprovacoes.service.ts": {
+    "EstadoAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "TipoAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "TabAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadeAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "DetalheAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "Aprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "AprovacoesKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaAprovacoes": {
+      "num": 0,
+      "using": []
+    },
+    "aprovacoesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/chefe/escalas.service.ts": {
+    "EstadoEscala": {
+      "num": 0,
+      "using": []
+    },
+    "TurnoEscala": {
+      "num": 0,
+      "using": []
+    },
+    "Atribuicao": {
+      "num": 0,
+      "using": []
+    },
+    "Escala": {
+      "num": 0,
+      "using": []
+    },
+    "EscalasKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaEscalas": {
+      "num": 0,
+      "using": []
+    },
+    "CriarEscalaPayload": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosExport": {
+      "num": 0,
+      "using": []
+    },
+    "escalasService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/chefe/patrulhas.service.ts": {
+    "EstadoPatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadePatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "TurnoPatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "Paragem": {
+      "num": 0,
+      "using": []
+    },
+    "Patrulha": {
+      "num": 0,
+      "using": []
+    },
+    "PatrulhasKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaPatrulhas": {
+      "num": 0,
+      "using": []
+    },
+    "CriarPatrulhaPayload": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosExport": {
+      "num": 0,
+      "using": []
+    },
+    "patrulhasService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/chefe/relatorios.service.ts": {
+    "RelatorioKpis": {
+      "num": 0,
+      "using": []
+    },
+    "ValorDiario": {
+      "num": 0,
+      "using": []
+    },
+    "ConsultaAgente": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoAgente": {
+      "num": 0,
+      "using": []
+    },
+    "ResumoPatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "RelatorioChefe": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "relatoriosChefeService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/chefe/veiculos-criticos.service.ts": {
+    "MotivoCritico": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadeCritico": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoCritico": {
+      "num": 0,
+      "using": []
+    },
+    "RegistoHistorico": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoCritico": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculosCriticosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaVeiculosCriticos": {
+      "num": 0,
+      "using": []
+    },
+    "CriarVeiculoCriticoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosExport": {
+      "num": 0,
+      "using": []
+    },
+    "veiculosCriticosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/gestmul/contestacoes.service.ts": {
+    "EstadoContestacao": {
+      "num": 0,
+      "using": []
+    },
+    "MotivoContestacao": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadeContestacao": {
+      "num": 0,
+      "using": []
+    },
+    "Contestacao": {
+      "num": 0,
+      "using": []
+    },
+    "ContestacoesKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaContestacoes": {
+      "num": 0,
+      "using": []
+    },
+    "CriarContestacaoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "DecidirPayload": {
+      "num": 0,
+      "using": []
+    },
+    "contestacoesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/gestmul/exportacao.service.ts": {
+    "TipoExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "FormatoExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "ExportacaoBackend": {
+      "num": 0,
+      "using": []
+    },
+    "ExportacaoRecente": {
+      "num": 0,
+      "using": []
+    },
+    "CriarExportacaoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "GerarXlsxPayload": {
+      "num": 0,
+      "using": []
+    },
+    "GerarPdfPayload": {
+      "num": 0,
+      "using": []
+    },
+    "exportacaoService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/gestmul/multas.service.ts": {
+    "EstadoMulta": {
+      "num": 0,
+      "using": []
+    },
+    "MetodoPagamento": {
+      "num": 0,
+      "using": []
+    },
+    "Multa": {
+      "num": 0,
+      "using": []
+    },
+    "MultasKpis": {
+      "num": 0,
+      "using": []
+    },
+    "OpcoesFiltros": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaMultas": {
+      "num": 0,
+      "using": []
+    },
+    "Recibo": {
+      "num": 0,
+      "using": []
+    },
+    "PagarPayload": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarMultaPayload": {
+      "num": 0,
+      "using": []
+    },
+    "multasService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/gestmul/pagamentos.service.ts": {
+    "EstadoPagamento": {
+      "num": 0,
+      "using": []
+    },
+    "MetodoPagamento": {
+      "num": 0,
+      "using": []
+    },
+    "Pagamento": {
+      "num": 0,
+      "using": []
+    },
+    "PagamentosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "OpcoesFiltros": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaPagamentos": {
+      "num": 0,
+      "using": []
+    },
+    "Recibo": {
+      "num": 0,
+      "using": []
+    },
+    "CriarPagamentoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "ActualizarPagamentoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "pagamentosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/gestmul/relatorios.service.ts": {
+    "PeriodoRapido": {
+      "num": 0,
+      "using": []
+    },
+    "KpisRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "ValorMensal": {
+      "num": 0,
+      "using": []
+    },
+    "TopInfracao": {
+      "num": 0,
+      "using": []
+    },
+    "TopMetodo": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoProvincia": {
+      "num": 0,
+      "using": []
+    },
+    "TotaisProvincias": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "relatoriosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/issm/apolices.service.ts": {
+    "EstadoApolice": {
+      "num": 0,
+      "using": []
+    },
+    "TipoApolice": {
+      "num": 0,
+      "using": []
+    },
+    "Apolice": {
+      "num": 0,
+      "using": []
+    },
+    "ApolicesKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaApolices": {
+      "num": 0,
+      "using": []
+    },
+    "CriarApolicePayload": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosExport": {
+      "num": 0,
+      "using": []
+    },
+    "apolicesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/issm/relatorios.service.ts": {
+    "KpisRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "ValorMensal": {
+      "num": 0,
+      "using": []
+    },
+    "ApolicesSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "TopTipoSeguro": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "relatoriosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/issm/seguradoras.service.ts": {
+    "EstadoSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "CategoriaSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "Seguradora": {
+      "num": 0,
+      "using": []
+    },
+    "SeguradorasKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaSeguradoras": {
+      "num": 0,
+      "using": []
+    },
+    "CriarSeguradoraPayload": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosExport": {
+      "num": 0,
+      "using": []
+    },
+    "seguradorasService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/issm/sinistros.service.ts": {
+    "EstadoSinistro": {
+      "num": 0,
+      "using": []
+    },
+    "TipoSinistro": {
+      "num": 0,
+      "using": []
+    },
+    "GravidadeSinistro": {
+      "num": 0,
+      "using": []
+    },
+    "Sinistro": {
+      "num": 0,
+      "using": []
+    },
+    "SinistrosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaSinistros": {
+      "num": 0,
+      "using": []
+    },
+    "CriarSinistroPayload": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosExport": {
+      "num": 0,
+      "using": []
+    },
+    "sinistrosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/issm/validacao.service.ts": {
+    "EstadoValidacao": {
+      "num": 0,
+      "using": []
+    },
+    "ResultadoValidacao": {
+      "num": 0,
+      "using": []
+    },
+    "validacaoService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/inatro/agendamentos.service.ts": {
+    "EstadoAgendamento": {
+      "num": 0,
+      "using": []
+    },
+    "Agendamento": {
+      "num": 0,
+      "using": []
+    },
+    "AgendamentosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaAgendamentos": {
+      "num": 0,
+      "using": []
+    },
+    "CriarAgendamentoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "agendamentosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/inatro/catalogos.service.ts": {
+    "Catalogos": {
+      "num": 0,
+      "using": []
+    },
+    "catalogosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/inatro/exportacoes.service.ts": {
+    "TipoExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "FormatoExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "Exportacao": {
+      "num": 0,
+      "using": []
+    },
+    "CriarExportacaoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "GerarFicheiroPayload": {
+      "num": 0,
+      "using": []
+    },
+    "exportacoesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/inatro/inspecoes.service.ts": {
+    "ChecklistTipo": {
+      "num": 0,
+      "using": []
+    },
+    "ChecklistCampo": {
+      "num": 0,
+      "using": []
+    },
+    "ChecklistSeccao": {
+      "num": 0,
+      "using": []
+    },
+    "InspecaoMeta": {
+      "num": 0,
+      "using": []
+    },
+    "Inspecao": {
+      "num": 0,
+      "using": []
+    },
+    "InspecoesKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaInspecoes": {
+      "num": 0,
+      "using": []
+    },
+    "CriarInspecaoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "inspecoesService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/inatro/relatorios.service.ts": {
+    "RelatorioKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RegistroMes": {
+      "num": 0,
+      "using": []
+    },
+    "RegistroProvincia": {
+      "num": 0,
+      "using": []
+    },
+    "TopMarca": {
+      "num": 0,
+      "using": []
+    },
+    "TopInfracao": {
+      "num": 0,
+      "using": []
+    },
+    "InspecaoPosto": {
+      "num": 0,
+      "using": []
+    },
+    "DashboardRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "FiltrosRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "relatoriosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/inatro/veiculos.service.ts": {
+    "Veiculo": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaVeiculos": {
+      "num": 0,
+      "using": []
+    },
+    "CriarVeiculoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "veiculosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/portal/cidadao.service.ts": {
+    "EstadoMulta": {
+      "num": 0,
+      "using": []
+    },
+    "Multa": {
+      "num": 0,
+      "using": []
+    },
+    "Cidadao": {
+      "num": 0,
+      "using": []
+    },
+    "TotaisMultas": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaConsulta": {
+      "num": 0,
+      "using": []
+    },
+    "Noticia": {
+      "num": 0,
+      "using": []
+    },
+    "cidadaoService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/prm/abordagens.service.ts": {
+    "ResultadoAbordagem": {
+      "num": 0,
+      "using": []
+    },
+    "Abordagem": {
+      "num": 0,
+      "using": []
+    },
+    "AbordagensKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaAbordagens": {
+      "num": 0,
+      "using": []
+    },
+    "CriarAbordagemPayload": {
+      "num": 0,
+      "using": []
+    },
+    "abordagensService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/prm/alertas.service.ts": {
+    "NivelAlerta": {
+      "num": 0,
+      "using": []
+    },
+    "TipoAlerta": {
+      "num": 0,
+      "using": []
+    },
+    "Alerta": {
+      "num": 0,
+      "using": []
+    },
+    "AlertasKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaAlertas": {
+      "num": 0,
+      "using": []
+    },
+    "alertasService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/prm/hotlist.service.ts": {
+    "NivelHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "OrigemHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "MotivoHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "HotlistKpis": {
+      "num": 0,
+      "using": []
+    },
+    "RespostaHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "CriarHotlistPayload": {
+      "num": 0,
+      "using": []
+    },
+    "AtualizarHotlistPayload": {
+      "num": 0,
+      "using": []
+    },
+    "hotlistService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/services/prm/relatorios.service.ts": {
+    "Nivel": {
+      "num": 0,
+      "using": []
+    },
+    "KpiVisivel": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoPosto": {
+      "num": 0,
+      "using": []
+    },
+    "MatriculaAbordada": {
+      "num": 0,
+      "using": []
+    },
+    "RelatorioPrm": {
+      "num": 0,
+      "using": []
+    },
+    "relatoriosService": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/shared/services/mockData.ts": {
+    "VEICULOS_FICTICIOS": {
+      "num": 0,
+      "using": []
+    },
+    "POSTOS_FICTICIOS": {
+      "num": 0,
+      "using": []
+    },
+    "DISPOSITIVOS_FICTICIOS": {
+      "num": 0,
+      "using": []
+    },
+    "PATRULHAS_FICTICIAS": {
+      "num": 0,
+      "using": []
+    },
+    "AUTOS_FICTICIOS": {
+      "num": 0,
+      "using": []
+    },
+    "CLONAGEM_FICTICIA": {
+      "num": 0,
+      "using": []
+    },
+    "UTILIZADORES_FICTICIOS": {
+      "num": 0,
+      "using": []
+    },
+    "INTEGRACOES_FICTICIAS": {
+      "num": 0,
+      "using": []
+    },
+    "AUDITORIA_FICTICIA": {
+      "num": 0,
+      "using": []
+    },
+    "HotlistItem": {
+      "num": 0,
+      "using": []
+    },
+    "HOTLIST_FICTICIA": {
+      "num": 0,
+      "using": []
+    },
+    "delay": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/backups.store.ts": {
+    "Backup": {
+      "num": 0,
+      "using": []
+    },
+    "TipoBackupConfig": {
+      "num": 0,
+      "using": []
+    },
+    "TipoBackup": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoBackup": {
+      "num": 0,
+      "using": []
+    },
+    "OrigemBackup": {
+      "num": 0,
+      "using": []
+    },
+    "Periodicidade": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminBackupsStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/dispositivos.store.ts": {
+    "Dispositivo": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoDispositivo": {
+      "num": 0,
+      "using": []
+    },
+    "VERSAO_ATUAL": {
+      "num": 0,
+      "using": []
+    },
+    "AGENTES_DISPONIVEIS": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminDispositivosStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/integracoes.store.ts": {
+    "Integracao": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoItem": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoIntegracao": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminIntegracoesStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/monitorizacao.store.ts": {
+    "Nivel": {
+      "num": 0,
+      "using": []
+    },
+    "NivelAlerta": {
+      "num": 0,
+      "using": []
+    },
+    "KpiRecurso": {
+      "num": 0,
+      "using": []
+    },
+    "Integracao": {
+      "num": 0,
+      "using": []
+    },
+    "MetricasSistema": {
+      "num": 0,
+      "using": []
+    },
+    "Alerta": {
+      "num": 0,
+      "using": []
+    },
+    "Intervalo": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminMonitorizacaoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/perfis.store.ts": {
+    "Perfil": {
+      "num": 0,
+      "using": []
+    },
+    "Permissao": {
+      "num": 0,
+      "using": []
+    },
+    "ModuloKey": {
+      "num": 0,
+      "using": []
+    },
+    "AcaoKey": {
+      "num": 0,
+      "using": []
+    },
+    "ModoForm": {
+      "num": 0,
+      "using": []
+    },
+    "Modulo": {
+      "num": 0,
+      "using": []
+    },
+    "MODULOS": {
+      "num": 0,
+      "using": []
+    },
+    "ACOES": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminPerfisStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/postos.store.ts": {
+    "Posto": {
+      "num": 0,
+      "using": []
+    },
+    "PROVINCIAS": {
+      "num": 0,
+      "using": []
+    },
+    "POR_PAGINA": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminPostosStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/relatorios-frota.store.ts": {
+    "Viatura": {
+      "num": 0,
+      "using": []
+    },
+    "Operacao": {
+      "num": 0,
+      "using": []
+    },
+    "KpisFrota": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoOperacao": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminRelatoriosFrotaStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/relatorios.store.ts": {
+    "Operacao": {
+      "num": 0,
+      "using": []
+    },
+    "Viatura": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoOperacao": {
+      "num": 0,
+      "using": []
+    },
+    "Preset": {
+      "num": 0,
+      "using": []
+    },
+    "SegmentoDonut": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminRelatoriosStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/admin/utilizadores.store.ts": {
+    "Utilizador": {
+      "num": 0,
+      "using": []
+    },
+    "Perfil": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoUtilizador": {
+      "num": 0,
+      "using": []
+    },
+    "PerfilKey": {
+      "num": 0,
+      "using": []
+    },
+    "ModoForm": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminUtilizadoresStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-autos.store.ts": {
+    "AutoNoticia": {
+      "num": 0,
+      "using": []
+    },
+    "Infracao": {
+      "num": 0,
+      "using": []
+    },
+    "useAgenteAutosStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-chat.store.ts": {
+    "Autor": {
+      "num": 0,
+      "using": []
+    },
+    "Mensagem": {
+      "num": 0,
+      "using": []
+    },
+    "useAgenteChatStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-fluxo.store.ts": {
+    "FaseFluxo": {
+      "num": 0,
+      "using": []
+    },
+    "AutoRecente": {
+      "num": 0,
+      "using": []
+    },
+    "HotlistItem": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoResultado": {
+      "num": 0,
+      "using": []
+    },
+    "useAgenteFluxoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-historico.store.ts": {
+    "ConsultaHistorico": {
+      "num": 0,
+      "using": []
+    },
+    "HistoricoKpis": {
+      "num": 0,
+      "using": []
+    },
+    "Grupo": {
+      "num": 0,
+      "using": []
+    },
+    "FILTROS": {
+      "num": 0,
+      "using": []
+    },
+    "PERIODOS": {
+      "num": 0,
+      "using": []
+    },
+    "FiltroActivo": {
+      "num": 0,
+      "using": []
+    },
+    "PeriodoActivo": {
+      "num": 0,
+      "using": []
+    },
+    "useAgenteHistoricoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-inicio.store.ts": {
+    "Kpis": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoConsultado": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoHotlist": {
+      "num": 0,
+      "using": []
+    },
+    "Patrulha": {
+      "num": 0,
+      "using": []
+    },
+    "useAgenteInicioStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-multa.store.ts": {
+    "Infracao": {
+      "num": 0,
+      "using": []
+    },
+    "AutoAplicado": {
+      "num": 0,
+      "using": []
+    },
+    "INFRACOES": {
+      "num": 0,
+      "using": []
+    },
+    "useAgenteMultaStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/agente/agente-perfil.store.ts": {
+    "Dispositivo": {
+      "num": 0,
+      "using": []
+    },
+    "StatsAgente": {
+      "num": 0,
+      "using": []
+    },
+    "useAgentePerfilStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-AgentesStore.ts": {
+    "EstadoAgente": {
+      "num": 0,
+      "using": []
+    },
+    "TurnoAgente": {
+      "num": 0,
+      "using": []
+    },
+    "Agente": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/agentes.vue"
+      ]
+    },
+    "useChefeAgentesStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/agentes.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-AprovacoesStore.ts": {
+    "Aprovacao": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/aprovacoes.vue"
+      ]
+    },
+    "EstadoAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "TipoAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "TabAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadeAprovacao": {
+      "num": 0,
+      "using": []
+    },
+    "useChefeAprovacoesStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/aprovacoes.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-EscalasStore.ts": {
+    "EstadoEscala": {
+      "num": 0,
+      "using": []
+    },
+    "Escala": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/escalas.vue"
+      ]
+    },
+    "TurnoEscala": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/escalas.vue"
+      ]
+    },
+    "Atribuicao": {
+      "num": 0,
+      "using": []
+    },
+    "useChefeEscalasStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/escalas.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-PatrulhasStore.ts": {
+    "EstadoPatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadePatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "TurnoPatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "ParagemPatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "Patrulha": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/patrulhas.vue"
+      ]
+    },
+    "useChefePatrulhasStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/patrulhas.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-RelatoriosStore.ts": {
+    "PeriodoRapido": {
+      "num": 0,
+      "using": []
+    },
+    "RelatorioKpis": {
+      "num": 0,
+      "using": []
+    },
+    "ValorDiario": {
+      "num": 0,
+      "using": []
+    },
+    "ConsultaAgente": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoAgente": {
+      "num": 0,
+      "using": []
+    },
+    "ResumoPatrulha": {
+      "num": 0,
+      "using": []
+    },
+    "useChefeRelatoriosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/relatorios.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/chefe/chefe-VeiculosCriticosStore.ts": {
+    "VeiculoCritico": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/veiculos.vue"
+      ]
+    },
+    "MotivoCritico": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadeCritico": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoCritico": {
+      "num": 0,
+      "using": []
+    },
+    "useChefeVeiculosCriticosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/veiculos.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/admin-dashboard.store.ts": {
+    "AccaoRapida": {
+      "num": 0,
+      "using": []
+    },
+    "useAdminDashboardStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/dashboard.store.ts": {
+    "FiltrosDashboard": {
+      "num": 0,
+      "using": []
+    },
+    "PROVINCIAS": {
+      "num": 0,
+      "using": []
+    },
+    "POSTOS": {
+      "num": 0,
+      "using": []
+    },
+    "useDashboardStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-ContestacoesStore.ts": {
+    "Contestacao": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/contestacoes.vue"
+      ]
+    },
+    "EstadoContestacao": {
+      "num": 0,
+      "using": []
+    },
+    "MotivoContestacao": {
+      "num": 0,
+      "using": []
+    },
+    "PrioridadeContestacao": {
+      "num": 0,
+      "using": []
+    },
+    "useGestmulContestacoesStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/contestacoes.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-ExportacaoStore.ts": {
+    "TipoOpcao": {
+      "num": 0,
+      "using": []
+    },
+    "FormatoOpcao": {
+      "num": 0,
+      "using": []
+    },
+    "OpcoesExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "useGestmulExportacaoStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/exportacao.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-MultasStore.ts": {
+    "Multa": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/multas.vue"
+      ]
+    },
+    "EstadoMulta": {
+      "num": 0,
+      "using": []
+    },
+    "MetodoPagamento": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/multas.vue"
+      ]
+    },
+    "Recibo": {
+      "num": 0,
+      "using": []
+    },
+    "useGestmulMultasStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/multas.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-PagamentosStore.ts": {
+    "Pagamento": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/pagamentos.vue"
+      ]
+    },
+    "EstadoPagamento": {
+      "num": 0,
+      "using": []
+    },
+    "MetodoPagamento": {
+      "num": 0,
+      "using": []
+    },
+    "Recibo": {
+      "num": 0,
+      "using": []
+    },
+    "useGestmulPagamentosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/pagamentos.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/gestmul/gestmul-RelatoriosStore.ts": {
+    "PeriodoRapido": {
+      "num": 0,
+      "using": []
+    },
+    "KpisRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "ValorMensal": {
+      "num": 0,
+      "using": []
+    },
+    "TopInfracao": {
+      "num": 0,
+      "using": []
+    },
+    "TopMetodo": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoProvincia": {
+      "num": 0,
+      "using": []
+    },
+    "TotaisProvincias": {
+      "num": 0,
+      "using": []
+    },
+    "useGestmulRelatoriosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/relatorios.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-AgendamentosStore.ts": {
+    "Agendamento": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/Agendamentos.vue"
+      ]
+    },
+    "EstadoAgendamento": {
+      "num": 0,
+      "using": []
+    },
+    "AgendamentosKpis": {
+      "num": 0,
+      "using": []
+    },
+    "CriarAgendamentoPayload": {
+      "num": 0,
+      "using": []
+    },
+    "TipoInspecao": {
+      "num": 0,
+      "using": []
+    },
+    "SlotHorario": {
+      "num": 0,
+      "using": []
+    },
+    "useInatroAgendamentosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/Agendamentos.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-ExportacaoStore.ts": {
+    "PresetPeriodo": {
+      "num": 0,
+      "using": []
+    },
+    "Exportacao": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/exportacao.vue"
+      ]
+    },
+    "TipoExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "FormatoExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "OpcoesExportacao": {
+      "num": 0,
+      "using": []
+    },
+    "useInatroExportacaoStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/exportacao.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-inspecoesStore.ts": {
+    "VeiculoPendente": {
+      "num": 0,
+      "using": []
+    },
+    "ChecklistItemForm": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/inspecoes.vue"
+      ]
+    },
+    "ChecklistSeccaoForm": {
+      "num": 0,
+      "using": []
+    },
+    "useInatroInspecoesStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/inspecoes.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-RelatoriosStore.ts": {
+    "PresetRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "useInatroRelatoriosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/relatorios.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/inatro/inatro-VeiculoStore.ts": {
+    "Inspecao": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/veiculos.vue"
+      ]
+    },
+    "Provincia": {
+      "num": 0,
+      "using": []
+    },
+    "GrupoCores": {
+      "num": 0,
+      "using": []
+    },
+    "VeiculoParaInspecao": {
+      "num": 0,
+      "using": []
+    },
+    "useInatroVeiculoStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/veiculos.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/perfil/admin-perfil.store.ts": {
+    "useAdminPerfilStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/perfil/perfil.store.ts": {
+    "usePerfilStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-ApolesStore.ts": {
+    "Apolice": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/apolices.vue"
+      ]
+    },
+    "EstadoApolice": {
+      "num": 0,
+      "using": []
+    },
+    "TipoApolice": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmApolesStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/apolices.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-perfil.store.ts": {
+    "KpiVariant": {
+      "num": 0,
+      "using": []
+    },
+    "Tendencia": {
+      "num": 0,
+      "using": []
+    },
+    "KpiConfig": {
+      "num": 0,
+      "using": []
+    },
+    "KpiValor": {
+      "num": 0,
+      "using": []
+    },
+    "FiltroConfig": {
+      "num": 0,
+      "using": []
+    },
+    "LinhaCardConfig": {
+      "num": 0,
+      "using": []
+    },
+    "CardConfig": {
+      "num": 0,
+      "using": []
+    },
+    "AlertaConfig": {
+      "num": 0,
+      "using": []
+    },
+    "QuickAction": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmPerfilStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-RelatoriosStore.ts": {
+    "PeriodoRapido": {
+      "num": 0,
+      "using": []
+    },
+    "KpisRelatorio": {
+      "num": 0,
+      "using": []
+    },
+    "ValorMensal": {
+      "num": 0,
+      "using": []
+    },
+    "ApolicesSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "TopTipoSeguro": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmRelatoriosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/relatorios.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-SeguradorasStore.ts": {
+    "Seguradora": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/Seguradoras.vue"
+      ]
+    },
+    "EstadoSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "CategoriaSeguradora": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmSeguradorasStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/Seguradoras.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-SinistrosStore.ts": {
+    "Sinistro": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoSinistro": {
+      "num": 0,
+      "using": []
+    },
+    "TipoSinistro": {
+      "num": 0,
+      "using": []
+    },
+    "GravidadeSinistro": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmSinistrosStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/sinistros.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/issm/issm-ValidacaoStore.ts": {
+    "ResultadoValidacao": {
+      "num": 0,
+      "using": []
+    },
+    "EstadoValidacao": {
+      "num": 0,
+      "using": []
+    },
+    "HistoricoItem": {
+      "num": 0,
+      "using": []
+    },
+    "DenunciaSemSeguro": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmValidacaoStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/validacao.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/portal/assistente.store.ts": {
+    "Mensagem": {
+      "num": 0,
+      "using": []
+    },
+    "Sugestao": {
+      "num": 0,
+      "using": []
+    },
+    "usePortalAssistenteStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/portal/carta.store.ts": {
+    "usePortalCartaStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/portal/faq.store.ts": {
+    "Cat": {
+      "num": 0,
+      "using": []
+    },
+    "Faq": {
+      "num": 0,
+      "using": []
+    },
+    "Categoria": {
+      "num": 0,
+      "using": []
+    },
+    "usePortalFaqStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/portal/inicio.store.ts": {
+    "ItemEncontra": {
+      "num": 0,
+      "using": []
+    },
+    "Atalho": {
+      "num": 0,
+      "using": []
+    },
+    "usePortalInicioStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/portal/multas.store.ts": {
+    "Metodo": {
+      "num": 0,
+      "using": []
+    },
+    "MetodoInfo": {
+      "num": 0,
+      "using": []
+    },
+    "Recibo": {
+      "num": 0,
+      "using": []
+    },
+    "usePortalMultasStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/portal/noticias.store.ts": {
+    "Categoria": {
+      "num": 0,
+      "using": []
+    },
+    "Noticia": {
+      "num": 0,
+      "using": []
+    },
+    "CategoriaInfo": {
+      "num": 0,
+      "using": []
+    },
+    "CategoriaChip": {
+      "num": 0,
+      "using": []
+    },
+    "usePortalNoticiasStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-AbordagensStore.ts": {
+    "Abordagem": {
+      "num": 2,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-mapaCalor.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/abordagens.vue"
+      ]
+    },
+    "ResultadoAbordagem": {
+      "num": 0,
+      "using": []
+    },
+    "POSTO_COORDS": {
+      "num": 0,
+      "using": []
+    },
+    "usePrmAbordagensStore": {
+      "num": 3,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-mapaCalor.store.ts",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/abordagens.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/Mapa.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-AlertasStore.ts": {
+    "Alerta": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/alertas.vue"
+      ]
+    },
+    "NivelAlerta": {
+      "num": 0,
+      "using": []
+    },
+    "TipoAlerta": {
+      "num": 0,
+      "using": []
+    },
+    "usePrmAlertasStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/alertas.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-HotlistStore.ts": {
+    "usePrmHotlistStore": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/hotlist.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-mapaCalor.store.ts": {
+    "Resultado": {
+      "num": 0,
+      "using": []
+    },
+    "Camada": {
+      "num": 0,
+      "using": []
+    },
+    "Abordagem": {
+      "num": 0,
+      "using": []
+    },
+    "useMapaCalorStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/prm/prm-relatorios.store.ts": {
+    "KpiVisivel": {
+      "num": 0,
+      "using": []
+    },
+    "DesempenhoPosto": {
+      "num": 0,
+      "using": []
+    },
+    "MatriculaAbordada": {
+      "num": 0,
+      "using": []
+    },
+    "Nivel": {
+      "num": 0,
+      "using": []
+    },
+    "Ponto": {
+      "num": 0,
+      "using": []
+    },
+    "useRelatoriosStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/config/dashboards.ts": {
+    "KpiVariant": {
+      "num": 0,
+      "using": []
+    },
+    "Tendencia": {
+      "num": 0,
+      "using": []
+    },
+    "KpiConfig": {
+      "num": 0,
+      "using": []
+    },
+    "FiltroConfig": {
+      "num": 0,
+      "using": []
+    },
+    "LinhaCardConfig": {
+      "num": 0,
+      "using": []
+    },
+    "CardConfig": {
+      "num": 0,
+      "using": []
+    },
+    "AlertaConfig": {
+      "num": 0,
+      "using": []
+    },
+    "QuickAction": {
+      "num": 0,
+      "using": []
+    },
+    "DashboardConfig": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/config/perfil-dashboards.ts"
+      ]
+    },
+    "DASHBOARDS": {
+      "num": 0,
+      "using": []
+    },
+    "getDashboard": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/config/menus.ts": {
+    "MenuItem": {
+      "num": 0,
+      "using": []
+    },
+    "MenuGroup": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/layouts/MainLayout.vue"
+      ]
+    },
+    "MENUS": {
+      "num": 0,
+      "using": []
+    },
+    "menuDoPerfil": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/layouts/MainLayout.vue"
+      ]
+    },
+    "ROTA_INICIAL": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/stores/auth.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/config/perfil-dashboards.ts": {
+    "PERFIL_PAINEL": {
+      "num": 0,
+      "using": []
+    },
+    "PERFIL_DASHBOARD": {
+      "num": 0,
+      "using": []
+    },
+    "DASHBOARDS_SUPORTADOS": {
+      "num": 0,
+      "using": []
+    },
+    "DashboardKey": {
+      "num": 0,
+      "using": []
+    },
+    "temDashboardConfig": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/layouts/MainLayout.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/components/NotificacoesPanel.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/layouts/AgenteLayout.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/config/tabsAgente.ts": {
+    "TabAgente": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/layouts/AgenteLayout.vue"
+      ]
+    },
+    "TABS_AGENTE": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/mobile/layouts/AgenteLayout.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/layouts/AgenteLayout.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/AplicarMulta.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/autos.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/chat.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/consulta.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/historico.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/inicio.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/perfil.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/mobile/pages/veiculo-detalhe.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.mobile.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/components/CartaCondutor.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/portal/pages/carta.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/config/tabsPortal.ts": {
+    "TabPortal": {
+      "num": 0,
+      "using": []
+    },
+    "TABS_PORTAL": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/portal/layouts/PortalLayout.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/layouts/PortalLayout.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/pages/assistente.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/pages/carta.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/pages/faq.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/pages/multas.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/pages/noticias.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/portal/pages/portal.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.portal.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/chefe.store.ts": {
+    "useChefeDashboardStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/gestmul.store.ts": {
+    "useGestmulDashboardStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/inatro.store.ts": {
+    "DonutItem": {
+      "num": 0,
+      "using": []
+    },
+    "useInatroDashboardStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/issm.store.ts": {
+    "KpiItem": {
+      "num": 0,
+      "using": []
+    },
+    "ChartPonto": {
+      "num": 0,
+      "using": []
+    },
+    "CardItem": {
+      "num": 0,
+      "using": []
+    },
+    "TabelaLinha": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmDashboardStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/dashboards/secoes/prm.store.ts": {
+    "usePrmDashboardStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/perfil/secoes/secoes-chefe.store.ts": {
+    "Patrulha": {
+      "num": 0,
+      "using": []
+    },
+    "useChefeSecaoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/perfil/secoes/secoes-gestmul.store.ts": {
+    "Multa": {
+      "num": 0,
+      "using": []
+    },
+    "useGestmulSecaoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/perfil/secoes/secoes-inatro.store.ts": {
+    "Inspeccao": {
+      "num": 0,
+      "using": []
+    },
+    "useInatroSecaoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/perfil/secoes/secoes-issm.store.ts": {
+    "Apolice": {
+      "num": 0,
+      "using": []
+    },
+    "useIssmSecaoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/stores/perfil/secoes/secoes-prm.store.ts": {
+    "Ocorrencia": {
+      "num": 0,
+      "using": []
+    },
+    "usePrmSecaoStore": {
+      "num": 0,
+      "using": []
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/auditoria.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/backups.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/dispositivos.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/integracoes.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/monitorizacao.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/perfis.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/postos.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/relatorios.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/admin/utilizadores.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/AdminDashboard.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/dashboard.vue": {
+    "Default": {
+      "num": 10,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts",
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts",
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts",
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts",
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/painel.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/painel.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/painel.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/painel.vue",
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/painel.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/agentes.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/aprovacoes.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/escalas.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/painel.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/patrulhas.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/relatorios.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/chefe/veiculos.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/contestacoes.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/exportacao.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/multas.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/pagamentos.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/painel.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/gestmul/relatorios.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/Agendamentos.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/exportacao.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/inspecoes.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/painel.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/relatorios.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/inatro/veiculos.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/apolices.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/painel.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/relatorios.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/Seguradoras.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/sinistros.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/issm/validacao.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/admin-perfil.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/perfil.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/abordagens.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/alertas.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/hotlist.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/Mapa.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/painel.vue": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/prm/relatorios.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/router/routes.desktop.ts"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/chefe.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/dashboard.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/gestmul.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/dashboard.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/inatro.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/dashboard.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/issm.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/dashboard.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/prm.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/dashboard.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/dashboard/secoes/_chart.scss": {},
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/secoes/chefe.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/perfil.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/secoes/gestmul.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/perfil.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/secoes/inatro.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/perfil.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/secoes/issm.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/perfil.vue"
+      ]
+    }
+  },
+  "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/secoes/prm.vue": {
+    "Default": {
+      "num": 1,
+      "using": [
+        "D:/projects/Frontend/frontend_sicam/src/modules/desktop/pages/perfil/perfil.vue"
+      ]
+    }
+  }
+}

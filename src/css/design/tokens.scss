@@ -1,0 +1,183 @@
+// ============================================================
+// SICAM — Design Tokens
+// Fonte única de verdade para todas as cores, espaçamentos, etc.
+// ============================================================
+
+:root {
+  // ------------------------------------------------------------
+  // 🎨 CORES INSTITUCIONAIS (marca SICAM)
+  // ------------------------------------------------------------
+  --sicam-primary-dark:    #064e3b;   // header gradient início
+  --sicam-primary:         #065f46;   // verde institucional
+  --sicam-primary-light:   #059669;   // botões, acções
+  --sicam-primary-soft:    #10b981;   // online, hover, success
+  --sicam-primary-bg:      #d1fae5;   // fundo suave (nav activo)
+  --sicam-primary-bg-alt:  #ecfdf5;   // hover suave
+
+  // ------------------------------------------------------------
+  // 🚦 CORES DE ESTADO (score de regularidade)
+  // ------------------------------------------------------------
+  --sicam-critical:        #dc2626;   // score < 50
+  --sicam-critical-ink:    #b91c1c;   // texto sobre badge crítico
+  --sicam-critical-bg:     #fde8e8;   // fundo badge crítico
+
+  --sicam-warning:         #d99a06;   // score 50-69
+  --sicam-warning-ink:     #a16207;   // texto sobre badge atenção
+  --sicam-warning-bg:      #fef3c7;   // fundo badge atenção
+
+  --sicam-success:         #16a34a;   // score 70-100
+  --sicam-success-ink:     #15803d;   // texto sobre badge regular
+  --sicam-success-bg:      #dcfce7;   // fundo badge regular
+
+  --sicam-neutral:         #6b7280;   // sem dados
+  --sicam-neutral-ink:     #4b5563;   // texto sobre badge neutro
+  --sicam-neutral-bg:      #f3f4f6;   // fundo badge neutro
+
+  // ------------------------------------------------------------
+  // 🏛️ CORES DE PERFIL (agentes, chefe, admin, etc.)
+  // ------------------------------------------------------------
+  --sicam-role-agente:     #6b7280;
+  --sicam-role-chefe:      #d99a06;
+  --sicam-role-admin:      #dc2626;
+  --sicam-role-inatro:     #2563eb;
+  --sicam-role-gestmul:    #7c3aed;
+  --sicam-role-issm:       #16a34a;
+  --sicam-role-prm:        #065f46;
+  --sicam-role-cidadao:    #6b7280;
+
+  // ------------------------------------------------------------
+  // 🗺️ CORES DE POSTOS (mapa de calor)
+  // ------------------------------------------------------------
+  --sicam-posto-baixa:     #2563eb;
+  --sicam-posto-kampfumo:  #0d9488;
+  --sicam-posto-matola:    #7c3aed;
+  --sicam-posto-machava:   #b45309;
+  --sicam-posto-namaacha:  #db2777;
+
+  // ------------------------------------------------------------
+  // 🖼️ SUPERFÍCIES E TEXTO
+  // ------------------------------------------------------------
+  --sicam-bg:              #f4f7f5;   // fundo da app
+  --sicam-surface:         #ffffff;   // cards, painéis
+  --sicam-surface-alt:     #fafafa;   // inputs, hover
+  --sicam-surface-hover:   #f3f4f6;   // hover estados
+
+  --sicam-ink:             #111827;   // texto principal
+  --sicam-ink-soft:        #374151;   // texto secundário
+  --sicam-muted:           #6b7280;   // texto terciário
+  --sicam-line:            #e5e7eb;   // bordas
+  --sicam-line-soft:       #f0f1f2;   // separadores finos
+  --sicam-line-strong:     #d1d5db;   // bordas inputs
+
+  // ------------------------------------------------------------
+  // 🌊 CORES ESPECIAIS
+  // ------------------------------------------------------------
+  --sicam-ocean:           #bcd9ea;   // mar no mapa
+  --sicam-map-bg:          #e8efe9;   // fundo do mapa
+  --sicam-gradient-header: linear-gradient(90deg, #064e3b, #065f46);
+  --sicam-gradient-login:  linear-gradient(160deg, #065f46, #0b4a38);
+  --sicam-logo-yellow:     #facc15;   // olho da águia no logo
+
+  // ------------------------------------------------------------
+  // 📐 ESPAÇAMENTOS
+  // ------------------------------------------------------------
+  --sicam-space-xs:  4px;
+  --sicam-space-sm:  8px;
+  --sicam-space-md:  12px;
+  --sicam-space-lg:  16px;
+  --sicam-space-xl:  24px;
+  --sicam-space-2xl: 32px;
+  --sicam-space-3xl: 48px;
+
+  // ------------------------------------------------------------
+  // 📏 RAIOS DE BORDA
+  // ------------------------------------------------------------
+  --sicam-radius-sm:  6px;
+  --sicam-radius-md:  8px;
+  --sicam-radius-lg:  12px;
+  --sicam-radius-xl:  16px;
+  --sicam-radius-pill: 99px;
+
+  // ------------------------------------------------------------
+  // 🌑 SOMBRAS
+  // ------------------------------------------------------------
+  --sicam-shadow-sm:  0 1px 3px rgba(0, 0, 0, 0.05);
+  --sicam-shadow-md:  0 1px 6px rgba(0, 0, 0, 0.05);
+  --sicam-shadow-lg:  0 6px 24px rgba(0, 0, 0, 0.06);
+  --sicam-shadow-xl:  0 24px 48px rgba(6, 95, 70, 0.33);
+
+  // ------------------------------------------------------------
+  // ✍️ TIPOGRAFIA
+  // ------------------------------------------------------------
+  --sicam-font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --sicam-font-size-xs:   11px;
+  --sicam-font-size-sm:   12px;
+  --sicam-font-size-md:   14px;
+  --sicam-font-size-lg:   15px;
+  --sicam-font-size-xl:   22px;
+  --sicam-font-size-2xl:  28px;
+  --sicam-font-size-3xl:  34px;
+
+  --sicam-font-weight-regular: 400;
+  --sicam-font-weight-medium:  500;
+  --sicam-font-weight-semibold: 600;
+  --sicam-font-weight-bold:    700;
+
+  --sicam-line-height-tight: 1.2;
+  --sicam-line-height-normal: 1.4;
+  --sicam-line-height-relaxed: 1.6;
+
+  // ------------------------------------------------------------
+  // 🔄 TRANSIÇÕES
+  // ------------------------------------------------------------
+  --sicam-transition-fast:   0.15s ease;
+  --sicam-transition-normal: 0.2s ease;
+  --sicam-transition-slow:   0.3s ease;
+
+  // ------------------------------------------------------------
+  // 📱 BREAKPOINTS (usados via mixins, não como var CSS)
+  // ------------------------------------------------------------
+  --sicam-header-height: 56px;
+  --sicam-drawer-width:  250px;
+  --sicam-content-max:   1180px;
+}
+
+// ============================================================
+// 🌑 DARK MODE — preparado para uso futuro (admin)
+// ============================================================
+[data-theme="dark"] {
+  // Superfícies
+  --sicam-bg:              #0f172a;
+  --sicam-surface:         #1e293b;
+  --sicam-surface-alt:     #273449;
+  --sicam-surface-hover:   #334155;
+
+  // Texto
+  --sicam-ink:             #f1f5f9;
+  --sicam-ink-soft:        #cbd5e1;
+  --sicam-muted:           #94a3b8;
+
+  // Linhas
+  --sicam-line:            #334155;
+  --sicam-line-soft:       #273449;
+  --sicam-line-strong:     #475569;
+
+  // Estados (mais escuros)
+  --sicam-critical-bg:     #7f1d1d;
+  --sicam-warning-bg:      #78350f;
+  --sicam-success-bg:      #14532d;
+  --sicam-neutral-bg:      #334155;
+
+  --sicam-critical-ink:    #fecaca;
+  --sicam-warning-ink:     #fde68a;
+  --sicam-success-ink:     #bbf7d0;
+  --sicam-neutral-ink:     #cbd5e1;
+
+  // Sombras
+  --sicam-shadow-md:  0 1px 6px rgba(0, 0, 0, 0.4);
+  --sicam-shadow-lg:  0 6px 24px rgba(0, 0, 0, 0.5);
+
+  // Superfícies especiais
+  --sicam-map-bg:     #1e293b;
+  --sicam-ocean:      #1e3a5f;
+}

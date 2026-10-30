@@ -1,0 +1,350 @@
+﻿
+Folder PATH listing for volume Files
+Volume serial number is 9E4B-E4A1
+D:\PROJECTS\FRONTEND\FRONTEND_SICAM\SRC
+|   App.vue
+|   
++---assets
+|       quasar-logo-vertical.svg
+|       
++---auth
+|   +---layouts
+|   |       AuthLayout.vue
+|   |       
+|   \---pages
+|           ErrorNotFound.vue
+|           login.vue
+|           
++---boot
+|       .gitkeep
+|       axios.ts
+|       i18n.ts
+|       pinia.ts
+|       
++---css
+|   |   app.scss
+|   |   quasar.variables.scss
+|   |   
+|   \---design
+|           mixins.scss
+|           palette.ts
+|           tokens.scss
+|           
++---i18n
+|   |   index.ts
+|   |   
+|   \---en-US
+|           index.ts
+|           
++---modules
+|   +---common
+|   |       AppBadge.vue
+|   |       AppCard.vue
+|   |       AppChip.vue
+|   |       AppEmpty.vue
+|   |       AppFbLoader.vue
+|   |       AppFilterBar.vue
+|   |       AppKpi.vue
+|   |       AppPageHeader.vue
+|   |       AppRow.vue
+|   |       AppScoreBar.vue
+|   |       AppSpinner.vue
+|   |       AppTable.vue
+|   |       
+|   +---desktop
+|   |   +---components
+|   |   +---config
+|   |   |       dashboards.ts
+|   |   |       menus.ts
+|   |   |       perfil-dashboards.ts
+|   |   |       
+|   |   +---layouts
+|   |   |       MainLayout.vue
+|   |   |       
+|   |   \---pages
+|   |       +---admin
+|   |       |       auditoria.vue
+|   |       |       backups.vue
+|   |       |       dispositivos.vue
+|   |       |       integracoes.vue
+|   |       |       monitorizacao.vue
+|   |       |       perfis.vue
+|   |       |       postos.vue
+|   |       |       relatorios.vue
+|   |       |       utilizadores.vue
+|   |       |       
+|   |       +---chefe
+|   |       |       agentes.vue
+|   |       |       aprovacoes.vue
+|   |       |       escalas.vue
+|   |       |       painel.vue
+|   |       |       patrulhas.vue
+|   |       |       relatorios.vue
+|   |       |       veiculos.vue
+|   |       |       
+|   |       +---dashboard
+|   |       |   |   AdminDashboard.vue
+|   |       |   |   dashboard.vue
+|   |       |   |   
+|   |       |   \---secoes
+|   |       |           chefe.vue
+|   |       |           gestmul.vue
+|   |       |           inatro.vue
+|   |       |           issm.vue
+|   |       |           prm.vue
+|   |       |           _chart.scss
+|   |       |           
+|   |       +---gestmul
+|   |       |       contestacoes.vue
+|   |       |       exportacao.vue
+|   |       |       multas.vue
+|   |       |       pagamentos.vue
+|   |       |       painel.vue
+|   |       |       relatorios.vue
+|   |       |       
+|   |       +---inatro
+|   |       |       Agendamentos.vue
+|   |       |       exportacao.vue
+|   |       |       inspecoes.vue
+|   |       |       painel.vue
+|   |       |       relatorios.vue
+|   |       |       veiculos.vue
+|   |       |       
+|   |       +---issm
+|   |       |       apolices.vue
+|   |       |       painel.vue
+|   |       |       relatorios.vue
+|   |       |       Seguradoras.vue
+|   |       |       sinistros.vue
+|   |       |       validacao.vue
+|   |       |       
+|   |       +---perfil
+|   |       |   |   admin-perfil.vue
+|   |       |   |   perfil.vue
+|   |       |   |   
+|   |       |   \---secoes
+|   |       |           chefe.vue
+|   |       |           gestmul.vue
+|   |       |           inatro.vue
+|   |       |           issm.vue
+|   |       |           prm.vue
+|   |       |           
+|   |       \---prm
+|   |               abordagens.vue
+|   |               alertas.vue
+|   |               hotlist.vue
+|   |               Mapa.vue
+|   |               painel.vue
+|   |               relatorios.vue
+|   |               
+|   +---mobile
+|   |   +---components
+|   |   |       NotificacoesPanel.vue
+|   |   |       
+|   |   +---config
+|   |   |       tabsAgente.ts
+|   |   |       
+|   |   +---layouts
+|   |   |       AgenteLayout.vue
+|   |   |       
+|   |   \---pages
+|   |           AplicarMulta.vue
+|   |           autos.vue
+|   |           chat.vue
+|   |           consulta.vue
+|   |           historico.vue
+|   |           inicio.vue
+|   |           perfil.vue
+|   |           veiculo-detalhe.vue
+|   |           
+|   \---portal
+|       +---components
+|       |       CartaCondutor.vue
+|       |       
+|       +---config
+|       |       tabsPortal.ts
+|       |       
+|       +---layouts
+|       |       PortalLayout.vue
+|       |       
+|       \---pages
+|               assistente.vue
+|               carta.vue
+|               faq.vue
+|               multas.vue
+|               noticias.vue
+|               portal.vue
+|               
++---router
+|       index.ts
+|       routes.desktop.ts
+|       routes.mobile.ts
+|       routes.portal.ts
+|       typed-router.d.ts
+|       
++---services
+|   |   auth.service.ts
+|   |   dashboard.service.ts
+|   |   notificacoes.service.ts
+|   |   perfil.service.ts
+|   |   
+|   +---admin
+|   |       backups.service.ts
+|   |       dispositivos.service.ts
+|   |       integracoes.service.ts
+|   |       monitorizacao.service.ts
+|   |       perfis.service.ts
+|   |       postos.service.ts
+|   |       relatorios-frota.service.ts
+|   |       relatorios-operacoes.service.ts
+|   |       utilizadores.service.ts
+|   |       
+|   +---agente
+|   |       agente-consulta.service.ts
+|   |       agente-inicio.service.ts
+|   |       autos.service.ts
+|   |       historico.service.ts
+|   |       ocr.service.ts
+|   |       perfil.service.ts
+|   |       
+|   +---chefe
+|   |       agentes.service.ts
+|   |       aprovacoes.service.ts
+|   |       escalas.service.ts
+|   |       patrulhas.service.ts
+|   |       relatorios.service.ts
+|   |       veiculos-criticos.service.ts
+|   |       
+|   +---gestmul
+|   |       contestacoes.service.ts
+|   |       exportacao.service.ts
+|   |       multas.service.ts
+|   |       pagamentos.service.ts
+|   |       relatorios.service.ts
+|   |       
+|   +---inatro
+|   |       agendamentos.service.ts
+|   |       catalogos.service.ts
+|   |       exportacoes.service.ts
+|   |       inspecoes.service.ts
+|   |       relatorios.service.ts
+|   |       veiculos.service.ts
+|   |       
+|   +---issm
+|   |       apolices.service.ts
+|   |       relatorios.service.ts
+|   |       seguradoras.service.ts
+|   |       sinistros.service.ts
+|   |       validacao.service.ts
+|   |       
+|   +---portal
+|   |       cidadao.service.ts
+|   |       
+|   \---prm
+|           abordagens.service.ts
+|           alertas.service.ts
+|           hotlist.service.ts
+|           relatorios.service.ts
+|           
++---shared
+|   \---services
+|           mockData.ts
+|           
+\---stores
+    |   app.store.ts
+    |   auth.ts
+    |   dashboard.store.ts
+    |   Desktopnotificacoes.store.ts
+    |   example-store.ts
+    |   index.ts
+    |   Mobilenotificacoes.store.ts
+    |   
+    +---admin
+    |       backups.store.ts
+    |       dispositivos.store.ts
+    |       integracoes.store.ts
+    |       monitorizacao.store.ts
+    |       perfis.store.ts
+    |       postos.store.ts
+    |       relatorios-frota.store.ts
+    |       relatorios.store.ts
+    |       utilizadores.store.ts
+    |       
+    +---agente
+    |       agente-autos.store.ts
+    |       agente-chat.store.ts
+    |       agente-fluxo.store.ts
+    |       agente-historico.store.ts
+    |       agente-inicio.store.ts
+    |       agente-multa.store.ts
+    |       agente-perfil.store.ts
+    |       
+    +---chefe
+    |       chefe-AgentesStore.ts
+    |       chefe-AprovacoesStore.ts
+    |       chefe-EscalasStore.ts
+    |       chefe-PatrulhasStore.ts
+    |       chefe-RelatoriosStore.ts
+    |       chefe-VeiculosCriticosStore.ts
+    |       
+    +---dashboards
+    |   |   admin-dashboard.store.ts
+    |   |   dashboard.store.ts
+    |   |   
+    |   \---secoes
+    |           chefe.store.ts
+    |           gestmul.store.ts
+    |           inatro.store.ts
+    |           issm.store.ts
+    |           prm.store.ts
+    |           
+    +---gestmul
+    |       gestmul-ContestacoesStore.ts
+    |       gestmul-ExportacaoStore.ts
+    |       gestmul-MultasStore.ts
+    |       gestmul-PagamentosStore.ts
+    |       gestmul-RelatoriosStore.ts
+    |       
+    +---inatro
+    |       inatro-AgendamentosStore.ts
+    |       inatro-ExportacaoStore.ts
+    |       inatro-inspecoesStore.ts
+    |       inatro-RelatoriosStore.ts
+    |       inatro-VeiculoStore.ts
+    |       
+    +---issm
+    |       issm-ApolesStore.ts
+    |       issm-perfil.store.ts
+    |       issm-RelatoriosStore.ts
+    |       issm-SeguradorasStore.ts
+    |       issm-SinistrosStore.ts
+    |       issm-ValidacaoStore.ts
+    |       
+    +---perfil
+    |   |   admin-perfil.store.ts
+    |   |   perfil.store.ts
+    |   |   
+    |   \---secoes
+    |           secoes-chefe.store.ts
+    |           secoes-gestmul.store.ts
+    |           secoes-inatro.store.ts
+    |           secoes-issm.store.ts
+    |           secoes-prm.store.ts
+    |           
+    +---portal
+    |       assistente.store.ts
+    |       carta.store.ts
+    |       faq.store.ts
+    |       inicio.store.ts
+    |       multas.store.ts
+    |       noticias.store.ts
+    |       
+    \---prm
+            prm-AbordagensStore.ts
+            prm-AlertasStore.ts
+            prm-HotlistStore.ts
+            prm-mapaCalor.store.ts
+            prm-relatorios.store.ts
+            
+
+

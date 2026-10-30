@@ -1,0 +1,38 @@
+{
+  "activeProjectId": "8af6f6e6-6aba-4b87-a003-3c9ee4bb1055",
+  "projects": [
+    {
+      "id": "8af6f6e6-6aba-4b87-a003-3c9ee4bb1055",
+      "name": "frontend_sicam",
+      "source": "startup",
+      "version": 1,
+      "status": "ready",
+      "lastError": "",
+      "createdAt": "2026-10-23T10:13:14.023Z",
+      "updatedAt": "2026-10-23T10:13:16.882Z",
+      "lastAnalyzedAt": "2026-10-23T10:13:16.882Z",
+      "config": {
+        "root": "D:\\projects\\Frontend\\frontend_sicam",
+        "ignore": [
+          "**/node_modules/**",
+          "**/dist/**"
+        ],
+        "extensions": [
+          ".js",
+          ".ts",
+          ".tsx",
+          ".vue",
+          ".json",
+          ".jsx"
+        ],
+        "alias": {
+          "@@/": "/",
+          "~~/": "/",
+          "@/": "/src/",
+          "~/": "/src/"
+        },
+        "ide": "code"
+      }
+    }
+  ]
+}

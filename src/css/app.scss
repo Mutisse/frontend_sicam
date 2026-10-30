@@ -1,0 +1,105 @@
+// ============================================================
+// SICAM — Estilos globais
+// ============================================================
+
+@use './quasar.variables' as *;
+@use './design/tokens';
+@use './design/mixins' as *;
+
+// ------------------------------------------------------------
+// Reset base + tipografia SICAM
+// ------------------------------------------------------------
+html, body {
+  font-family: var(--sicam-font-family);
+  font-size: var(--sicam-font-size-md);
+  line-height: var(--sicam-line-height-normal);
+  background: var(--sicam-bg);
+  color: var(--sicam-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--sicam-ink);
+  font-weight: var(--sicam-font-weight-semibold);
+}
+
+p { margin: 0; }
+
+// ------------------------------------------------------------
+// Scrollbar SICAM
+// ------------------------------------------------------------
+body, .scroll {
+  @include sicam-scrollbar;
+}
+
+// ------------------------------------------------------------
+// Utilitários SICAM
+// ------------------------------------------------------------
+.sicam-gradient-header { background: var(--sicam-gradient-header); }
+.sicam-gradient-login  { background: var(--sicam-gradient-login); }
+.sicam-text-muted      { color: var(--sicam-muted); }
+.sicam-text-critical   { color: var(--sicam-critical); }
+.sicam-text-warning    { color: var(--sicam-warning); }
+.sicam-text-success    { color: var(--sicam-success); }
+
+// ------------------------------------------------------------
+// Grelhas utilitárias (baseadas no teu HTML)
+// ------------------------------------------------------------
+.sicam-grid {
+  display: grid;
+  gap: 14px;
+  margin-bottom: var(--sicam-space-lg);
+
+  &--g5 { grid-template-columns: repeat(5, 1fr); }
+  &--g4 { grid-template-columns: repeat(4, 1fr); }
+  &--g3 { grid-template-columns: repeat(3, 1fr); }
+  &--g2 { grid-template-columns: repeat(2, 1fr); }
+
+  @include below-desktop {
+    &--g5, &--g4, &--g3 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @include mobile {
+    &--g5, &--g4, &--g3, &--g2 { grid-template-columns: 1fr; }
+  }
+}
+
+.sicam-two-cols {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--sicam-space-lg);
+  align-items: start;
+
+  @include below-desktop { grid-template-columns: 1fr; }
+}
+
+// ------------------------------------------------------------
+// Override de botões Quasar com paleta SICAM
+// ------------------------------------------------------------
+.q-btn.btn {
+  background: var(--sicam-primary-light);
+  color: #fff;
+  border: 0;
+  border-radius: var(--sicam-radius-md);
+  padding: 9px 16px;
+  font-weight: var(--sicam-font-weight-semibold);
+  text-transform: none;
+
+  &:hover { background: var(--sicam-primary); }
+
+  &.btn--outline {
+    background: #fff;
+    color: var(--sicam-ink);
+    border: 1px solid var(--sicam-line);
+
+    &:hover { background: var(--sicam-surface-hover); }
+  }
+}
+
+// ============================================================
+// Override global do body na tela de login
+// ============================================================
+body:has(.sicam-login) {
+  background: #fff;
+}
