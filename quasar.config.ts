@@ -9,7 +9,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig((ctx) => {
   return {
-    // ✅ Pinia ANTES de i18n — obrigatório para o guard do router
     boot: ["pinia", "i18n"],
 
     css: ["app.scss"],
@@ -17,10 +16,9 @@ export default defineConfig((ctx) => {
     extras: ["roboto-font", "material-icons"],
 
     build: {
-      // ✅ Alias
       alias: {
         "@": resolve(__dirname, "./src"),
-        "src": resolve(__dirname, "./src"), // opcional
+        "src": resolve(__dirname, "./src"),
       },
 
       typescript: {
@@ -28,6 +26,7 @@ export default defineConfig((ctx) => {
         vueShim: true,
       },
 
+      // ✅ Mantido "hash" — não precisa de rewrite no Render
       vueRouterMode: "hash",
 
       vitePlugins: [
@@ -48,10 +47,10 @@ export default defineConfig((ctx) => {
     framework: {
       config: {
         loadingBar: {
-          color: "red",     // ⭐ VERMELHO
+          color: "red",
           size: "3px",
           position: "top",
-          speed: 100,        // rápido (~1s)
+          speed: 100,
           reverse: false,
           skipHijack: false,
         },
@@ -76,8 +75,21 @@ export default defineConfig((ctx) => {
 
     ssg: {},
 
+    // ✅ PWA — manifest está em src-pwa/manifest.json (não duplicar aqui)
     pwa: {
       workboxMode: "GenerateSW",
+
+      metaVariables: {
+        appleMobileWebAppCapable: "yes",
+        appleMobileWebAppStatusBarStyle: "default",
+        appleMobileWebAppTitle: "SICAM STI",
+        appleTouchIcon120: "icons/apple-icon-120x120.png",
+        appleTouchIcon152: "icons/apple-icon-152x152.png",
+        appleTouchIcon167: "icons/apple-icon-167x167.png",
+        appleTouchIcon180: "icons/apple-icon-180x180.png",
+        // ✅ Corrigido: 144x144 não foi gerado; usar 128x128 (existe)
+        msapplicationTileImage: "icons/icon-128x128.png",
+      },
     },
 
     cordova: {},
