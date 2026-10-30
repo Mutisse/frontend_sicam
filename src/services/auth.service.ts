@@ -1,5 +1,5 @@
 // src/services/auth.service.ts
-import http, { garantirCsrf } from '@/boot/axios'
+import http from '@/boot/axios'
 
 // ============================================================
 // Tipos
@@ -44,6 +44,7 @@ export interface Utilizador {
 
 export interface LoginResponse {
   utilizador: Utilizador
+  token: string
 }
 
 export interface MeResponse {
@@ -55,8 +56,6 @@ export interface MeResponse {
 // ============================================================
 export const authService = {
   async login(email: string, senha: string): Promise<LoginResponse> {
-    await garantirCsrf()
-
     const { data } = await http.post<LoginResponse>('/api/auth/login', {
       email: email.trim(),
       senha,
